@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sn Schedule 3 M2m Aari 1s A10 Load Bal" max_length="40" name="sn_schedule_3_m2m_aari_1s_a10_load_bal" type="collection">
+        <element attributes="encode_utf8=false" label="A10 Load Balancer" max_length="32" name="a10_load_balancer" reference="cmdb_ci_lb_a10" type="reference"/>
+        <element attributes="encode_utf8=false" label="Aari 1" max_length="32" name="aari_1" reference="aari_1" type="reference"/>
+        <index name="index">
+            <element name="a10_load_balancer"/>
+        </index>
+        <index name="index2">
+            <element name="aari_1"/>
+        </index>
+    </element>
+</database>
