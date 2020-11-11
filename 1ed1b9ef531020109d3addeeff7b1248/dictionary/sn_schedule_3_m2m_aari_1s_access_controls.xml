@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sn Schedule 3 M2m Aari 1s Access Controls" max_length="40" name="sn_schedule_3_m2m_aari_1s_access_controls" type="collection">
+        <element attributes="encode_utf8=false" label="Aari 1" max_length="32" name="aari_1" reference="aari_1" type="reference"/>
+        <element attributes="encode_utf8=false" label="Access Control" max_length="32" name="access_control" reference="sys_security_acl" type="reference"/>
+        <index name="index">
+            <element name="access_control"/>
+        </index>
+        <index name="index2">
+            <element name="aari_1"/>
+        </index>
+    </element>
+</database>
